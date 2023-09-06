@@ -1,1 +1,1 @@
-# Jaxon-Yue-IDS-706-Mini-Project-2
+Thank you for reading me

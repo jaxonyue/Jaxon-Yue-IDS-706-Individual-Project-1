@@ -3,7 +3,7 @@ This repository includes the components for Mini-Project 1. It configures an env
 
 Key elements in the repository are:
 
-### Makefile
-### Dockerfile
+Makefile
+Dockerfile
 A foundational collection of libraries for DevOps and web development
-### GitHub Actions
+GitHub Actions

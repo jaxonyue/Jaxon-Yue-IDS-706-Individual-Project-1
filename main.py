@@ -5,8 +5,9 @@ import matplotlib.pyplot as plt
 # Read the uploaded csv file
 df = pd.read_csv("Development of average annual wages.csv")
 
-# Print out the # of rows and columns for the dataframe
-print(df.shape)
+# Get the # of rows and columns of the dataframe
+rows = df.shape[0]
+columns = df.shape[1]
 
 # Convert columns to float
 df["2000"] = df["2000"].str.replace(",", "").astype(float)

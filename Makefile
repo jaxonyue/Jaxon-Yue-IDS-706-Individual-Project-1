@@ -9,4 +9,4 @@ lint:
 	pylint --disable=R,C *.py
 
 test:
-	python -m pytest -vv --cov=main --cov=mylib test_*.pymake
+	python -m pytest -vv --cov=main --cov=mylib test_*.py

@@ -14,3 +14,4 @@ This repository includes the components for Mini-Project 2 - Pandas Descriptive 
 ### Steps needed to run:
 1. Create a virtualenv: 'virtualenv ~/.venv'
 2. Edit my '~.bashrc'
+3. Run 'make all'

@@ -10,3 +10,6 @@ Key elements in the repository are:
 * test_main.py
 * A foundational collection of libraries for DevOps and web development
 * GitHub Actions
+
+1. Create a virtualenv: 'virtualenv ~/.venv'
+2. Edit my '~.bashrc'

@@ -15,13 +15,13 @@ df['2020'] = df['2020'].str.replace(',', '').astype(float)
 df['2022'] = df['2022'].str.replace(',', '').astype(float)
 
 # Top 3 countries with 2022 average annual wages
-df.sort_values('2022', ascending = False)[:3]
+top_3_countries = df.sort_values('2022', ascending = False)[:3]
 
 # Calculate the numerial change between 2000 to 2022
 df['Change'] = df['2022'] - df['2000']
 
 # Calculate the median for the 2022 numbers
-np.median(df['2022'].dropna())
+median = np.median(df['2022'].dropna())
 
 # Find the mean for every year's data
 mean_2000 = np.mean(df['2000'])
@@ -39,4 +39,4 @@ plt.xlabel('Year')
 plt.xticks(ticks = years, labels = ['2000', '2010', '2020', '2022'])
 plt.ylabel('Average Annual Wages')
 plt.title('Growth of Average Annual Wages')
-plt.show
+plt.show()

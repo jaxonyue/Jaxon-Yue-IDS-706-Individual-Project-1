@@ -9,4 +9,6 @@ lint:
 	pylint --disable=R,C *.py
 
 test:
-	python -m pytest -vv --cov=main --cov=mylib test_*.py
+	python -m pytest -vv --cov=main test_*.py
+
+all: install lint format test

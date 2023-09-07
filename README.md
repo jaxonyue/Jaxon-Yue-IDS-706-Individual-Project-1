@@ -1,3 +1,4 @@
+[![CI](https://github.com/nogibjj/Jaxon-Yue-IDS-706-Mini-Project-2/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Jaxon-Yue-IDS-706-Mini-Project-2/actions/workflows/cicd.yml)
 # IDS 706 Mini Project 2
 This repository includes the components for Mini-Project 2. It configures an environment in Codespaces and utilizes GitHub Actions to execute a Makefile for the following tasks: make install, make test, make format, and make lint.
 

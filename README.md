@@ -5,10 +5,12 @@
 ### Goal
 * It uses my Python template and contains a series of EDA on a dataset related to the development of average annual wages across various countries in the world.
 * The EDA process includes getting essential statistics such as **mean** and **median**, as well as a quick data visualization on the **growth of the average annual wages**.
+* The summary statistics and data visualization can be found in the **Summary Report** notebook file
 * This repo also contains respective **tests** to check whether the statistics calculated in the EDA process **match with the real data points**.
 
 ### Key elements in the repository are:
 * Development of average annual wages.csv
+* Summary Report.ipynb
 * Makefile
 * requirements.txt
 * Dockerfile
